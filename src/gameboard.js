@@ -9,7 +9,7 @@ function mark(player, row, col) {
     if (!isCellOccupied(row, col)) {
         board[row - 1][col - 1] = player;
     } else {
-        console.log(`Cannot mark: cell ${row}:${col} id occupied`);
+        console.log(`Cannot mark: cell ${row}:${col} is occupied`);
     }
 }
 
